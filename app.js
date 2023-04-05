@@ -14,7 +14,7 @@ console.log("what are you doing there");
 console.log("nothing");*/
 
 // Variable 1:16:20
-let name = "JOHAN SHRIMP TACO V";
+/* let name = "JOHAN SHRIMP TACO V";
 document.write(name);
 console.log(name);
 // some code here
@@ -35,4 +35,19 @@ zip = "53700";
 state = "lahore";
 name = "testing phase";
 console.log(address, zip, state);
-console.log(name);
+console.log(name); 
+let $Fullname12_11_$="Random";
+console.log($Fullname12_11_$); */
+
+// Const, Let, Var 1:35:36
+// Using var
+/* var name_1 = "Peter";
+name_1 = "Johan";
+console.log(name_1);
+// Using let
+let lastname = "Ekelund";
+lastname = "Peter"
+console.log(lastname);
+// Using const (Constant) - can't re-assign
+const fixed = "Never Changed";
+console.log(fixed); */
