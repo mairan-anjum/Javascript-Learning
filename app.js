@@ -50,4 +50,34 @@ lastname = "Peter"
 console.log(lastname);
 // Using const (Constant) - can't re-assign
 const fixed = "Never Changed";
-console.log(fixed); */
+console.log(fixed); 
+const name = "johan's courses are the best";
+console.log(name); */
+
+// String Concatenation - combine string value 1:46:43
+// - backticks (template strings) easir option.
+/* const first1 = "Peter";
+const last2 = "Ekelund";
+let fullname = first1 + " " + last2;
+console.log("Hey your full name is : " + fullname);
+document.write(fullname);
+
+const website = "google";
+const site = "https://www." + website + ".com";
+console.log(site); */
+
+// Number Basics 1:52:08
+const number0 = 25;
+const number = 64;
+const number1 = "75"; // If we enclose a number in quotation marks, it will always be considered as a string and will not retain its numerical value.
+let number2 = 57;
+let number3 = 79.85;
+const add = number0 + number;
+const div = number2 / number3;
+const min = number0 - number3;
+const multi = number * number2;
+console.log(add);
+console.log(div);
+console.log(min);
+console.log(multi);
+console.log(number1);
