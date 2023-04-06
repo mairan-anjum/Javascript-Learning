@@ -67,7 +67,7 @@ const site = "https://www." + website + ".com";
 console.log(site); */
 
 // Number Basics 1:52:08
-const number0 = 25;
+/* const number0 = 25;
 const number = 64;
 const number1 = "75"; // If we enclose a number in quotation marks, it will always be considered as a string and will not retain its numerical value.
 let number2 = 57;
@@ -80,4 +80,55 @@ console.log(add);
 console.log(div);
 console.log(min);
 console.log(multi);
-console.log(number1);
+console.log(number1); */
+
+// Numbers - Additional Features 2:00:29
+// +=, -=, /=, *=, ++, --, %
+// Modulus % operator returns the remainder after interger division
+/* let num = 50; // +=
+num += 5;
+num += 5;
+num += 5;
+num += 5;
+console.log(num);
+
+let num1 = 80; // +=
+num1 -= 5;
+num1 -= 5;
+num1 -= 5;
+num1 -= 1;
+console.log(num1);
+
+let num2 = 60; // /=
+num2 /= 5;
+console.log(num2);
+
+let num3 = 50; // *=
+num3 *= 7;
+console.log(num3);
+
+let num4 = 52; // ++
+num4++;
+num4++;
+num4++;
+num4++;
+console.log(num4);
+
+let num5 = 52; // --
+num5--;
+num5--;
+console.log(num5);
+
+const slices = 10; // % modulus
+const childern = 3;
+const amount = slices % childern;
+console.log(amount);
+const snacks = 10; // % modulus
+const childerns = 4;
+const amounts = snacks % childerns;
+console.log(amounts);
+
+const random = 5 + 6 + 10 * 8;
+const random2 = (5 + 6 + 10) * 8;
+console.log(random);
+console.log(random2); */
