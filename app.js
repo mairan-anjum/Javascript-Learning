@@ -132,3 +132,5 @@ const random = 5 + 6 + 10 * 8;
 const random2 = (5 + 6 + 10) * 8;
 console.log(random);
 console.log(random2); */
+
+// Implicit Type Conversion 2:08:53
