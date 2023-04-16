@@ -134,3 +134,36 @@ console.log(random);
 console.log(random2); */
 
 // Implicit Type Conversion 2:08:53
+/*const name2 = "Johan";
+const last2 = "Jordan";
+const fulname = name2 + " " + last2;
+console.log(fulname);
+const value = name2 - last2;
+console.log(value);
+
+const num2 = 10;
+const num3 = 25;
+const totalnum = num2 + num3;
+console.log(totalnum);
+
+const num4 = 10;
+const num5 = "43";
+const totalnum1 = num4 + num5;
+console.log(totalnum1);
+
+let num6 = 15;
+let num7 = 25;
+num7 = "45";
+const totalnum2 = num6 + num7;
+console.log(totalnum2);
+
+const randomNumber = 13;
+document.querySelector(".form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  let value = document.getElementById("num12").value;
+  value = parseInt(value);
+  console.log("Input Value Type");
+  console.log(value);
+  console.log("Sum of Two Values");
+  console.log(randomNumber + value);
+}); */
