@@ -167,3 +167,32 @@ document.querySelector(".form").addEventListener("submit", function (e) {
   console.log("Sum of Two Values");
   console.log(randomNumber + value);
 }); */
+
+// Data Types - 7 total
+// Primitive - string, number, boolean, null, undefined, symbol
+// Object - Arrays, Functions, Objects
+
+// typeof - operator (typeof variable) (typeof vlue)
+
+// String
+const str1 = "Haider";
+// Number
+const numb = 67;
+// Boolean
+let bool = true;
+let bool1 = false;
+// Null
+const nulled = null;
+// Undefined
+let nam1;
+// Symbol
+console.log(typeof str1);
+console.log(typeof numb);
+console.log(typeof bool);
+console.log(typeof bool1);
+console.log(typeof nulled);
+console.log(typeof nam1);
+console.log(typeof "ali");
+console.log(typeof 55);
+console.log(typeof true);
+console.log(typeof null);
