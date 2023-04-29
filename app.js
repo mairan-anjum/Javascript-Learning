@@ -168,12 +168,12 @@ document.querySelector(".form").addEventListener("submit", function (e) {
   console.log(randomNumber + value);
 }); */
 
-// Data Types - 7 total
+// Data Types - 7 total 2:21:55
 // Primitive - string, number, boolean, null, undefined, symbol
 // Object - Arrays, Functions, Objects
 
 // typeof - operator (typeof variable) (typeof vlue)
-
+/*
 // String
 const str1 = "Haider";
 // Number
@@ -196,3 +196,107 @@ console.log(typeof "ali");
 console.log(typeof 55);
 console.log(typeof true);
 console.log(typeof null);
+*/
+
+/*// Array, Functions and Object 2:29:41
+// Array - [], 0 index based
+
+const friend1 = "anna";
+const friend2 = "anna";
+const friend3 = "anna";
+const friend4 = "anna";
+
+const friends = ["john", "peter", "bob", "sushy", 45, undefined, null];
+
+let bestfriend = friends[2];
+friends[4] = "anna";
+console.log(bestfriend);
+console.log(friends);
+console.log(friends[4]);
+
+console.log(friends[3]); */
+
+// Array, Functions and Object 2:40:55
+// Funtions - declare, invoke
+/*function hello() {
+  console.log("Hello There Bob");
+  console.log("Hello There Anna");
+  console.log("Hello There Susy");
+}
+hello();
+hello();
+hello();
+
+function testing(name) {
+  console.log(name + "There anna");
+  console.log(name + "There bob");
+  console.log(name + "There john");
+}
+testing("Hello"); */
+
+// Array, Functions and Object 2:47:22
+// parans - when declare/define
+// placeholders, local vars
+// arguments - when invoke/call/run
+// use vars/value, multiple URLSearchParams, undefined
+/*
+function greet(name) {
+  console.log("Hello there " + name);
+}
+
+greet("Bob"); //greet bob
+greet("Anna"); //greet anna
+greet("Susy"); //greet susy
+
+// new function
+const bob = "Bob";
+const anna = "Anna";
+const susy = "Susy";
+function greets(name1, name2) {
+  console.log("Hello there " + name1);
+  console.log(name2);
+}
+
+greets(bob); //greet bob
+greets(anna, bob); //greet anna
+greets(susy, anna); //greet susy */
+
+// Array, Functions and Object 3:00:19
+// return
+// deafult undefined, shortcuts, ignores after
+// 1 inch 2.54cm, convert inch to cm
+/*const fullheight = 150;
+function calculator(value) {
+  const returnvalue = value * 2.54;
+  // console.log("The value in cm is " + value * 2.54 + " cm");
+  return returnvalue;
+}
+const width = calculator(250);
+const height = calculator(fullheight);
+
+const dimension = [width, height];
+console.log(dimension); */
+
+// Array, Functions and Object 3:13:42
+// expressions - another way desfine a function
+// create a variable, assign to FUNCTION (not value, use var)
+// diff - hoisting, use - arrow function, libraries,
+
+//function definition/declaration
+function addvalue(num1, num2) {
+  return num1 + num2;
+}
+const firstvalue = addvalue(5, 7);
+const secondvalue = addvalue(9, 4);
+//fuction expression
+const add = function (num1, num2) {
+  return num1 + num2;
+};
+const thirdvalue = add(12, 8);
+
+const allvalue = [firstvalue, secondvalue, thirdvalue];
+console.log(allvalue);
+
+const multiply = (num1, num2) => num1 * num2;
+
+exports.nameOfMethod = function () {};
