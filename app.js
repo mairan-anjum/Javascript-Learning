@@ -283,7 +283,7 @@ console.log(dimension); */
 // diff - hoisting, use - arrow function, libraries,
 
 //function definition/declaration
-function addvalue(num1, num2) {
+/*function addvalue(num1, num2) {
   return num1 + num2;
 }
 const firstvalue = addvalue(5, 7);
@@ -299,4 +299,87 @@ console.log(allvalue);
 
 const multiply = (num1, num2) => num1 * num2;
 
-exports.nameOfMethod = function () {};
+exports.nameOfMethod = function () {}; */
+
+// Array, Functions and Object 3:21:56
+// Objects - key/value pairs methods
+// dot notation
+/*
+const person = {
+  name: "John",
+  lastname: "Peters",
+  age: 25,
+  education: false,
+  married: true,
+  siblings: ["anna", "susy", "peter"],
+  greeting: function () {
+    console.log("Hello My name is John");
+  },
+};
+
+const age = person.age;
+console.log(age);
+person.name = "bob";
+console.log(person.name);
+console.log(person.siblings[0]);
+
+person.greeting(); */
+
+// Conditional Statements 3:29:30
+// >, <, >=, ==, !=, !==
+/*
+const value = 2 > 1;
+// console.log(typeof value);
+const value2 = 2 < 1;
+if (value2) {
+  console.log("Hello world");
+} else {
+  console.log("Hello People");
+} */
+
+// Conditional Statements 3:35:42
+// Comparison Operators
+// >, <, >=, ==, !=, !==
+// else if and !
+/*
+const num1 = 6;
+const num2 = 6;
+const result = num1 >= num2;
+if (num1 > num2) {
+  console.log("First number is bigger than second");
+} else if (result) {
+  // else if
+  console.log("First number equal to second number");
+} else {
+  console.log("Second number is bigger than first");
+}
+
+const values = false; // ! this show opposite result
+if (!values) {
+  console.log("value is false");
+}  */
+
+// Conditional Statements 3:42:30
+// Comparison Operators
+// >, <, >=, ==, ===, !=, !==
+// == checks only value
+// === checks value and type
+
+const num1 = 8;
+const num2 = "8";
+
+const value = num1 == num2;
+const value2 = num1 === num2;
+
+console.log(value);
+console.log(value2);
+
+// !=, !==
+const num11 = 8;
+const num22 = "8";
+
+const value11 = num11 != num22;
+const value22 = num11 !== num22;
+
+console.log(value11);
+console.log(value22);
